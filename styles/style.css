@@ -101,7 +101,7 @@ nav ul li a {
 
 main {
   max-width: 1440px;
-  margin: 4rem 15rem;
+  margin: 0 auto;
 }
 
 /* team section styling */
@@ -110,9 +110,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* justify-content: space-between;
-  align-items: center;
-  margin: 1rem 18.75rem; */
+  margin: 2rem 4rem;
 }
 .team-img-container {
   display: grid;
@@ -143,4 +141,89 @@ main {
   font-weight: 400;
   line-height: 1.5rem;
   margin: 2rem 0;
+}
+
+/* feature section styling */
+
+.feature {
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-content h3 {
+  color: #131313;
+  font-size: 2.9rem;
+  font-weight: 700;
+  position: relative;
+  margin-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.feature-content h3::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 106px;
+  left: -1.25rem;
+  background: #ff900e;
+}
+.feature-content p {
+  max-width: 35rem;
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+.feature-card {
+  width: 586px;
+  height: 171px;
+  padding: 1.875rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-card h4 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+}
+.feature-card p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+.image-container {
+  position: relative;
+}
+
+.feature-image img {
+  width: 95%;
+}
+.feature-image button {
+  position: absolute;
+  bottom: -2.5rem;
+  right: 29.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+  padding: 2.875rem 2.625rem;
+  border: none;
+  background-color: #ff900e;
+  border-radius: 0.6rem;
+}
+.feature-image button span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  display: block;
 }
