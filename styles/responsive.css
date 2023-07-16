@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+  header {
+    padding: 2rem 4rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav h3 {
+    font-size: 2rem;
+  }
+  nav ul {
+    margin: 2rem auto 2rem 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  header {
+    padding: 2rem 4rem;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav h3 {
+    padding: 1.5rem 0;
+  }
+  nav ul {
+    justify-content: space-between;
+    padding-left: revert;
+  }
+  nav ul li {
+    margin: 0;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 3rem 4.5rem;
+  }
+}
