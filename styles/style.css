@@ -206,26 +206,23 @@ main {
 .feature-image img {
   width: 95%;
 }
-.feature-image button {
-  position: absolute;
-  bottom: -2.5rem;
-  right: 29.5rem;
+.ten-years-badge {
+  width: 300px;
+  background-color: #ff900e;
   color: #fff;
   text-align: center;
-  font-size: 4rem;
-  font-weight: 700;
-  line-height: 4.375rem;
-  padding: 2.875rem 2.625rem;
-  border: none;
-  background-color: #ff900e;
-  border-radius: 0.6rem;
+  padding: 32px;
+  border-radius: 8px;
+  position: relative;
+  bottom: 120px;
+  left: -60px;
 }
-.feature-image button span {
-  color: #fff;
+.ten-years-badge h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+.ten-years-badge p {
   font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 2.5rem;
-  display: block;
 }
 
 /* Fact section styling */
